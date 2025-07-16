@@ -1,0 +1,68 @@
+# Python Bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments
+venv/
+.venv/
+env/
+.env/
+
+# Dependencies
+*.egg-info/
+.eggs/
+
+# Database Files (if using SQLite)
+*.db
+*.sqlite
+*.sqlite3
+
+# Log Files
+*.log
+logs/
+*.txt # If you have custom text logs
+
+# Environment Variables and Sensitive Information
+.env             # Environment variables (database passwords, API keys, etc.)
+.flaskenv
+.vault_pass.txt  # For tools like Ansible
+
+# Runtime and Temporary Files
+tmp/
+*.tmp
+*.swp
+*.bak
+
+# OS Specific Files
+.DS_Store        # macOS
+Thumbs.db        # Windows
+desktop.ini      # Windows
+
+# Editor and IDE Specific Files
+.vscode/         # VS Code settings
+.idea/           # PyCharm/IntelliJ IDEA settings
+*.iml            # IntelliJ IDEA
+*.sublime-project # Sublime Text
+*.sublime-workspace # Sublime Text
+.history         # History files from some editors
+
+# Build Outputs (e.g., Frontend build files, if applicable)
+dist/
+build/
+
+# Jupyter Notebook Files (if used)
+.ipynb_checkpoints
+
+# Test Results (if applicable)
+.pytest_cache/
+htmlcov/
+.coverage
+
+# File Uploads (If the application stores uploaded files in a directory)
+uploads/
+media/
+
+# Other
+*.bin
